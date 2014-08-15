@@ -61,7 +61,7 @@ urlFin = File.open(fichier, "r").readlines.each do |ligne|
 end
 
 # On met le tout en ordre alphabétique.
-# Il faut faire cet ordre à la toute fin, à l'extérieur de la boucle,
+# Il faut faire cette opération à la toute fin, à l'extérieur de la boucle,
 # une fois qu'on a écrémé nos sept fichiers html.
 
 urlFin.sort!
